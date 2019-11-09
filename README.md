@@ -19,15 +19,15 @@ Numpy’s random number function produces random numbers based on formations of 
 
 Name five distributions within the NumPy.random package
 
-chisquare(df[, size])	Draw samples from a chi-square distribution.
+chisquare(df[, size])	Elucidates samples from a chi-square distribution.
 
-logistic([loc, scale, size])	Draw samples from a logistic distribution.
+logistic([loc, scale, size])	Elucidates samples from a logistic distribution.
 
-geometric(p[, size])	Draw samples from the geometric distribution.
+geometric(p[, size])	Elucidates samples from the geometric distribution.
 
-uniform([low, high, size])	Draw samples from a uniform distribution.
+uniform([low, high, size])	Elucidates samples from a uniform distribution.
 
-normal([loc, scale, size])	Draw random samples from a normal (Gaussian) distribution.
+normal([loc, scale, size])	Elucidates random samples from a normal (Gaussian) distribution.
 
 
 
