@@ -37,9 +37,12 @@ The geometric distribution is used in analysing problems with one of two outcome
 
 uniform([low, high, size])	Elucidates samples from a uniform distribution.
 
+The chosen sample are uniformly distributed over the half open interval, i.e low and high. It incorporates low values but eliminates high. Any amount that falls within the choice interval is deemed of equal liklihood to be chosen by uniform.
+
+
 normal([loc, scale, size])	Elucidates random samples from a normal (Gaussian) distribution.
 
-
+The normal distribution represents the frequently presented distribution of samples each with a unique distribution occuring randomly, often in nature. 
 
 
 The use of seeds in generating pseudorandom numbers
