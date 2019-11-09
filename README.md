@@ -17,13 +17,23 @@ Numpy’s random number function produces random numbers based on formations of 
 
 
 
-Name five distributions within the NumPy.random package
+
+
+
+Name five distributions within the numpy.random package
 
 chisquare(df[, size])	Elucidates samples from a chi-square distribution.
 
+When random variables in a dataframe, with normal distributions, are squared and summed, a chi-square analysis is distributed. This is useful in calculating hypotheses.
+
 logistic([loc, scale, size])	Elucidates samples from a logistic distribution.
 
+The logistic distribution is useful in Extreme Value Problems, such as maximum and minimum values to real world problems. It makes the assumption that the variable is logistically and randomly distributed. 
+
 geometric(p[, size])	Elucidates samples from the geometric distribution.
+
+The geometric distribution is used in analysing problems with one of two outcomes, an example is that of rolling a die, where a six is success and all other outcomes represent failure. A geometric analysis represents the number of times a process must be activated in order for success to occur. 
+
 
 uniform([low, high, size])	Elucidates samples from a uniform distribution.
 
@@ -49,5 +59,5 @@ https://realpython.com/python-random/
 
 https://docs.scipy.org/doc/numpy-1.14.1/reference/routines.random.html
 
-
+https://docs.scipy.org/doc/numpy-1.16.1/reference/generated/numpy.random.logistic.html
 
