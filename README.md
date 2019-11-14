@@ -8,6 +8,10 @@ The Numpy documentation can be sourced at https://docs.scipy.org/doc/numpy-1.14.
 
 Simple Random Data and Permutations
 
+The functions included in the simple random data include rand, randn, randint,sample and choice.
+
+Th functions included in permutations include permutations and shuffle
+
 Simple random data and permutation function in NumPy forms a part of the random sampling function (numpy.random). 
 
 Numpy’s random number function produces random numbers based on formations of a BitGenerator and arranges these. A generator uses these arrangements to fragment from different distributions. 
