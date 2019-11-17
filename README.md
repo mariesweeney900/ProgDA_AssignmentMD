@@ -54,6 +54,8 @@ The use of seeds in generating pseudorandom numbers
 
 The random.seed function in python returns the hidden generator of random numbers utilsed by python in the random component.
 
+A pseudorandom number is a design for producing a sequence of numbers that closely resemble random numbers. The process is not authentically random, as it is derived from an original value, known as the seed, which can involve random values. 
+
 
 
 References
@@ -67,4 +69,6 @@ https://realpython.com/python-random/
 https://docs.scipy.org/doc/numpy-1.14.1/reference/routines.random.html
 
 https://docs.scipy.org/doc/numpy-1.16.1/reference/generated/numpy.random.logistic.html
+
+https://en.wikipedia.org/wiki/Pseudorandom_number_generator
 
